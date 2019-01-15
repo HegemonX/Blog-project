@@ -1,0 +1,78 @@
+body {
+    background: rgba(211, 211, 211, 0.4);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#blog-news-sort-menu {
+    margin: 0 10px 10px 0;
+    text-align: right;
+}
+
+#blog-news-sort-menu li {
+    margin: 0px 5px;
+}
+
+#blog-top {
+    background: rgba(169, 169, 169, 0.7);
+    padding: 20px;
+    margin: 0;
+}
+
+#blog-top h3 {
+    font-size: 30px;
+}
+
+#content {
+    background: rgba(211, 211, 211, 0.3);
+    box-shadow: 0 0 10px rgba(211, 211, 211, 0.4);
+    width: 70%;
+    min-width: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#blog-sidebar {
+    padding: 5px;
+    width: 20%;
+    min-width: 120px;
+    max-width: 150px;
+    /* margin-left: 85%; */
+    position: absolute;
+    top: 30px;
+    left: 85%;
+    min-height: 100px;
+}
+
+#blog-sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+#blog-sidebar ul li {
+    margin: 15px 0;
+}
+
+#blog-sidebar ul li::before {
+    content: "►";
+    color: green;
+    margin-right: 5px;
+}
+
+#blog-news {
+    margin-right: 15%;
+    min-width: 300px;
+    position: relative;
+    left: 0px;
+    padding-top: 15px;
+}
+
+.block {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

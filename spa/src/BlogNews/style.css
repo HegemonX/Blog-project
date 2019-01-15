@@ -1,0 +1,120 @@
+.sort-menu {
+    font-style: italic;
+    display: block;
+}
+
+.sort-menu li {
+    cursor: pointer;
+    list-style: none;
+    font-weight: bold;
+    display: inline;
+}
+
+.blog-news__article-title {
+    margin: 10px 0px 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(1, 1, 43);
+}
+
+.blog-news__article-text {
+    margin: 10px 10px 20px;
+}
+
+.blog-news__date {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    margin: 0;
+    font-size: small;
+    color: rgb(100, 107, 99);
+}
+
+.blog-news__article {
+    position: relative;
+    margin: 0px 15px 15px;
+    padding: 0px 10px 0px;
+    line-height: 20px;
+}
+
+.blog-news__comments {
+    background: mintcream;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-news__comments h4 {
+    margin: 5px 10px;
+}
+
+.blog-news__no-comments::before{
+    content: "No comments"
+}
+
+.blog-news__article-author {
+    color: blue;
+}
+
+.blog-news__article-author::before {
+    content: "by "
+}
+
+.comments-button img {
+    height: 25px;
+    position: relative;
+    height: 100%;
+    margin: 0px 5px;
+}
+
+.comments-button {
+    cursor: pointer;
+    height: 25px;
+    position: relative;
+    margin: 10px 0;
+}
+
+.comments-count {
+    position: relative;
+    top: -5px;
+    left: 3px;
+    font-size: 20px;
+}
+
+.comment__author {
+    color: blue;
+    float: left;
+}
+
+.comment__date {
+    float: right;
+    font-size: small;
+    color: rgb(100, 107, 99);
+}
+
+.comment__text {
+    margin: 10px 10px 30px;
+}
+
+.comment__header {
+    height: 20px;
+    position: relative;
+    top: 0px;
+}
+
+.comments__show-more {
+    font-size: 15px;
+    margin: 20px 0px 5px;
+}
+
+.comment {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: relative;
+}
+
+.comment__line {
+    position: relative;
+    left: 10px;
+    width: 30%;
+    margin: 5px 0;
+    color: rgba(129, 39, 214, 1);
+}

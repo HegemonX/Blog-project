@@ -1,0 +1,42 @@
+#blog-news-sort-menu {
+    margin: 0 10px 10px 0;
+    text-align: right;
+}
+
+#blog-news-sort-menu li {
+    margin: 0px 5px;
+}
+
+.blog-news__comments {
+    background: mintcream;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-news__comments h4 {
+    margin: 5px 10px;
+}
+
+.blog-news__no-comments::before{
+    content: "No comments"
+}
+
+.comments-button img {
+    height: 25px;
+    position: relative;
+    height: 100%;
+    margin: 0px 5px;
+}
+
+.comments-button {
+    cursor: pointer;
+    height: 25px;
+    position: relative;
+}
+
+.comments-count {
+    position: relative;
+    top: -5px;
+    left: 3px;
+    font-size: 20px;
+}

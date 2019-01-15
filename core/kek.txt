@@ -1,0 +1,2 @@
+curl -X POST -d "username=admin&password=111" http://localhost:8000/api/get_token/
+curl -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTQxMzMwOTc1LCJlbWFpbCI6InN1bm4yNDIyQGdtYWlsLmNvbSJ9.qldfrYJaObNzgAPIzJF4_2PssiPJ4a98jgcJ7ngh7HI" http://localhost:8000/api/current_user/
